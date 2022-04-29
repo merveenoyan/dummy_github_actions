@@ -17,6 +17,8 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_ACCESS_TOKEN }}
         run: |
+            git config --global user.email "merveenoyan@gmail.com"
+            git config --global user.name "merveenoyan"
             git add .
-            git commit --author="merveenoyan <merveenoyan@gmail.com>" -m "commit through github actions"
+            git commit -m "commit through github actions"
             git push https://merve:$HF_ACCESS_TOKEN@huggingface.co/spaces/dummy-gaction main
