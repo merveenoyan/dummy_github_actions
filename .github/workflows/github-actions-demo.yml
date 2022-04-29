@@ -18,5 +18,5 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_ACCESS_TOKEN }}
         run: |
             git add .
-            git commit --author="merveenoyan merveenoyan@gmail.com" -m "commit through github actions"
+            git commit --author="merveenoyan <merveenoyan@gmail.com>" -m "commit through github actions"
             git push https://merve:$HF_ACCESS_TOKEN@huggingface.co/spaces/dummy-gaction main
