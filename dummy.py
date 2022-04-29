@@ -1,1 +1,1 @@
-print("dummy")
+print("why u no work")
