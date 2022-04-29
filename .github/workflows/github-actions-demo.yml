@@ -21,4 +21,4 @@ jobs:
             git config --global user.name "merveenoyan"
             git add .
             git commit -m "commit through github actions"
-            git push https://merve:$HF_ACCESS_TOKEN@huggingface.co/spaces/dummy-gaction main
+            git push https://merve:$HF_ACCESS_TOKEN@huggingface.co/spaces/merve/dummy-gaction main
